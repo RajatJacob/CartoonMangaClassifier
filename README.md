@@ -2,8 +2,12 @@
 
 This classifier is designed to categorize images into either the 'cartoon' or 'manga' classes based on their characteristics and visual features.
 
+![Screenshot](./Screenshot.jpeg)
+
 [Dataset (Google Drive)](https://drive.google.com/drive/folders/1TSVH7UmEyFkv-qzOF9F_rsYP1WxVIKez?usp=drive_link)
-[Demonstration video](https://youtu.be/nqEnL34_abU)
+
+
+[Live Demo - https://cartoon-manga-classifier.rajatjacob.com](https://cartoon-manga-classifier.rajatjacob.com)
 
 ## Usage
 
@@ -19,3 +23,7 @@ To redownload the training data, you can run the downloader script:
 ```sh
 python3 download_images.py
 ```
+
+## Demonstration video
+
+[![Demo Video](https://img.youtube.com/vi/nqEnL34_abU/0.jpg)](https://www.youtube.com/watch?v=nqEnL34_abU)
