@@ -28,7 +28,7 @@ def main():
     if uploaded_image is not None:
         image = Image.open(uploaded_image)
         label = classify_image(image)
-        st.write(label)
+        st.markdown(f'# {label}')
         st.image(image, caption="Uploaded Image",
                  use_column_width=True)
 
