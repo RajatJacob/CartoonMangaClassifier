@@ -3,6 +3,7 @@
 This classifier is designed to categorize images into either the 'cartoon' or 'manga' classes based on their characteristics and visual features.
 
 [Dataset (Google Drive)](https://drive.google.com/drive/folders/1TSVH7UmEyFkv-qzOF9F_rsYP1WxVIKez?usp=drive_link)
+[Demonstration video](https://youtu.be/nqEnL34_abU)
 
 ## Usage
 
