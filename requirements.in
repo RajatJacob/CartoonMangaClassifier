@@ -5,6 +5,5 @@ pillow
 tensorflow
 matplotlib
 matplotlib_inline
-ipykernel
 scikit-learn
 streamlit

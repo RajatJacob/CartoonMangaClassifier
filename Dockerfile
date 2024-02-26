@@ -7,8 +7,9 @@ WORKDIR /app
 ADD . .
 
 
-RUN pip3 install poetry streamlit tensorflow
-RUN poetry install
+RUN pip3 install uv
+RUN uv venv
+RUN uv sync requirements.txt
 
 EXPOSE 8501
 
