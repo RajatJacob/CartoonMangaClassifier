@@ -8,8 +8,8 @@ ADD . .
 
 
 RUN pip3 install uv
-RUN uv venv
-RUN uv sync requirements.txt
+RUN uv pip compile requirements.in -o requirements.txt
+RUN pip3 install -r requirements.txt
 
 EXPOSE 8501
 
