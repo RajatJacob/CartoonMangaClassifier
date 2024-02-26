@@ -18,12 +18,12 @@ def load_model():
 
 
 def main():
-    st.title("Image Uploader")
+    st.title("Cartoon/Manga Classifier")
     classify_image = load_model()
 
     uploaded_image = st.file_uploader(
         "Choose an image...",
-        type=["jpg", "jpeg", "png"]
+        type=["jpg", "jpeg", "png", "gif"]
     )
     if uploaded_image is not None:
         image = Image.open(uploaded_image)
